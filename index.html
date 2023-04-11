@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/96d27d3b97.js" crossorigin="anonymous"></script>
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+
+        <div class="container">  
+            <nav>
+                <div class="logo">
+                  <a href="#Accueil"> <img src="images/Reg-Creator (1).png" class="logo">  </a>
+                </div>
+                <ul id="sidemenu">
+                  <li><a href="#Accueil">Accueil</a></li>
+                  <li><a href="#Apropos">À propos</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#Portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"  onclick="openmenu()"></i>
+              </nav>
+   
+    <div class="present">
+        <img src="images/baniere-reg.png" class="Creator"><br/><br/>
+        <h1> <br/>Developpeur web frontend <br>Je suis <span>Regile POATY</span></h1>
+    </div>
+    </div>
+
+    <!-- apropos -->
+
+     <section id="Apropos">
+        <div class="container1">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/moi.png">          
+                 </div>
+                <div class="col-2">
+                   <h1 class="titre">Apropos</h1><br><br>
+                   <p>Je suis Regile Poaty, Analyste programmeur de formation. Apres mes etudes,<br> je me suis orienté principalement sur le developpement frontend.
+                    Je travaille sur les langages javascript, PHP<br> avec le framWork Angular et le CMS Wordpress. 
+                   </p>
+
+                   <di class="sexion">
+                    <p class="sub-sexion active-sexion" onclick="opentab('Formation')">Formation</p>
+                    <p class="sub-sexion " onclick="opentab('Experience')">Experience</p>
+                    <p class="sub-sexion " onclick="opentab('skills')">Divertissement</p>
+                    
+                   </di>
+
+                   <div class="contain-part active-part" id="Formation">
+                    <ul>
+                        <li><span>Formation</span><br><br>
+                        <li><span>2018-2019</span><br> J'ai fais une formation en informatique de gestion tronc commun.</li><br>
+
+                        <li><span>2019-2020</span><br> Specialité en Analyse informatique<li><br>
+                        
+                        <li><span>2020-2021</span><br>Obtention ma licence en génie logiciel<li><br>
+                    </ul>
+
+                </div>
+               
+                <div class="contain-part" id="Experience">
+                    <ul>
+                        <li><span>Eperience</span><br><br>
+                            <p>Apres mes etudes et un stage dans une entreprise à Dakar au senegal, je me suis lancé en freelance avec des Amis. Du coup, de 2021 à aujourd'hui, je suis toujours freelance.</p>
+                    </ul>
+
+                </div>
+
+                <div class="contain-part" id="skills">
+                    <ul>
+                        <li><span>Divertissement</span><br></li><br>
+                        <p>Football<br><br>Restau les weekend<br><br>Le Cinema</p>
+                    </ul>
+
+                </div>
+            </div>
+
+
+                </div>
+                
+        </div>
+    </section>
+
+
+<!-- services -->
+
+
+    <section id="services">
+         <div class="container">
+            <h1 class="titre">Mes services</h1>
+        <div class="list-services">
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Application Mobile</h2><br>
+                <p>Je développe des applications frontend via le langage javascript et le framWork Angular et Vue js. </p>
+                
+
+            </div>
+
+            <div>
+                <i class="fa-light fa-browser"></i>
+                <h2>Creation de site web</h2><br>
+                <p>J'ai découvert depuis maintenant 3 ans le CMS WordPress et depuis, je développe les sites web avec ce dernier, il est très demandé par les clients qui me sollicitent. Je travaille également avec JavaScript sur des projets de sites web.</p>
+                
+            </div>
+
+            <div>
+                <i class="fa-solid fa-signal"></i>
+                <h2>Referencement</h2><br>
+                <p>Avoir un beau design sur son site web ne suffit pas, il faut le rendre visible pour attirer ainsi plusieurs visiteurs.<p>
+                
+            </div>
+
+        </div>
+         </div>
+         
+
+      </section>
+
+<!-- portfolio -->
+
+     </section>
+
+     <section id="Portfolio">
+     <div class="container">
+        <h1 class="titre">Mes prestations</h1>
+        <div class="list-prestations">
+            <div class="work">
+                <img src="images/lylybaked.jpg">
+                <div class="layer">
+                    <h3>Lylybacked</h3>
+                    <p>Site web pour photographe culinaire</p>
+                    <a href="https://www.lylybaked.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/site-responsive.jpg">
+                <div class="layer">
+                    <h3>helloanalytic-agency</h3>
+                    <p>Agence de conception digitale.</p>
+                    <a href="https://www.helloanalytic-agency.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/app.jpg">
+                <div class="layer">
+                    <h3>application de photo</h3>
+                    <p>Application de partage de photo.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+     </div>
+     
+       </section>
+
+       <!-- Mes services -->
+
+<!-- formulaire de contact -->
+
+       <section id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-1">
+                    <h3>Contactez-moi</h3><br>
+                    <p><i class="fa-solid fa-envelope"></i>pierreregile@gmail.com</p><br>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+221 77 412 33 06</p>
+
+                    <div class="icones">
+                        
+                        <a href="https://github.com/Nairobi64"><i class="fa-brands fa-github"></i></i></a>
+                    </div><br><br>
+                    <a href="images/CV-Reg-crator.pdf" class="btn" download >Mon Cv</a><br><br>
+                </div>
+                <div class="contact-2">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="name" id="nom" placeholder="Votre nom" required><br>
+                        <span id="nom_m" ></span>
+                        <input type="email" name="email" id="email" placeholder="Votre e-nail" required><br>
+                        <span id="nom_e" ></span>
+                        <textarea name="message" rows="6" placeholder="Entrer votre message"></textarea><br>
+                        <span id="msg"></span> <br>
+                        <button type="submit" id="btn-2">Envoyer</button>
+                    </form>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> realise par Reg-Creator</p>
+        </div>
+       </section>
+             
+       <!-- ----------------FORM REGEX ------------ -->
+
+       <script>
+        var subSexions = document.getElementsByClassName('sub-sexion');
+        var containParts = document.getElementsByClassName('contain-part');
+
+        function opentab(tabname){
+            for(subSexion of subSexions){
+                subSexion.classList.remove("active-sexion");
+
+            }
+            for(containPart of containParts){
+                containPart.classList.remove("active-part");
+
+            }
+            event.currentTarget.classList.add('active-sexion');
+            document.getElementById(tabname).classList.add('active-part');
+        }
+            
+        var validation = document.getElementById('btn-2');
+        var nom = document.getElementById('nom');
+        var nom_v =  /^[a-zA-Z0-9]+([._]?[a-zA-Z0-9]+)*$/
+        var nom_m = document.getElementById('nom_m')
+
+        function btn_valid(e){
+            if(nom.validity.valueMissing){
+                e.preventDefault();
+                nom_m.textContent = "Inscrivez un nom";
+                nom_m.style.color = 'red';
+            }else if(nom_v.test(nom.value) == false){
+                event.preventDefault();
+                nom_m.textContent = "Format incorrect";
+                nom_m.style.color = 'red';
+            }else{
+
+            }
+
+        }
+             
+       </script>
+ <!-- -------------menu mobile-------------- -->
+<script>
+   var icon = document.getElementById('sidemenu');
+
+   function openmenu(){
+     icon.style.right = "0";
+   }
+   function closemenu(){
+     icon.style.right = "-200px";
+   }
+    
+      
+ </script>
+ <!-- -------------menu mobile-------------- -->
+
+ 
+ <!-- --------------formulaire ------------ -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwrt9Fjbn9Zept4Fd6Sr2mmCtm940dO0J0AiXtdObHyqh4WwGe7HM8UN57WEYjtnhQ6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg');
+
+    
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = 'Message envoyé';
+                setTimeout(function(){
+                    msg.innerHTML = '';
+                },5000)
+                form.reset();
+        })
+       
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
